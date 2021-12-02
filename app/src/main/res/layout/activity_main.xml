@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnsaveI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10px"
+        android:layout_marginTop="20px"
+        android:text="Save I" />
+
+    <Button
+        android:id="@+id/btnsaveE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="270px"
+        android:layout_marginTop="20px"
+        android:text="Save E" />
+
+    <Button
+        android:id="@+id/btnreadI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="540px"
+        android:layout_marginTop="20px"
+        android:text="Read I" />
+
+    <Button
+        android:id="@+id/btnreadE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="810px"
+        android:layout_marginTop="20px"
+        android:text="Read E" />
+
+    <EditText
+        android:id="@+id/txtContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30px"
+        android:layout_marginTop="300px"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Input Text"
+        android:text="" />
+
+</RelativeLayout>
